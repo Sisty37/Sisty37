@@ -1,60 +1,84 @@
 # 👋 Hi, I'm Abu Jafar Sisty
 
-### Aspiring DevOps Engineer · AI/ML Research Enthusiast · CSE @ AIUB, Bangladesh
+### DevOps & MLOps Enthusiast · Federated Learning Researcher · CSE @ AIUB, Bangladesh
 
-![DevOps](https://img.shields.io/badge/DevOps-Learning-blue?style=flat-square&logo=docker)
-![Research](https://img.shields.io/badge/Research-AI%2FML%20%7C%20HCI-purple?style=flat-square&logo=googlescholar)
-![Python](https://img.shields.io/badge/Python-Flask-green?style=flat-square&logo=python)
+![DevOps](https://img.shields.io/badge/DevOps-MLOps-blue?style=flat-square&logo=docker)
+![Research](https://img.shields.io/badge/Research-Federated_Learning_%7C_XAI-purple?style=flat-square&logo=googlescholar)
+![Publications](https://img.shields.io/badge/Publications-6-orange?style=flat-square)
+![Python](https://img.shields.io/badge/Python-PyTorch-EE4C2C?style=flat-square&logo=pytorch)
 ![Docker](https://img.shields.io/badge/Docker-Container-2496ED?style=flat-square&logo=docker)
-![Open](https://img.shields.io/badge/Open_to-Internship_%26_Research-brightgreen?style=flat-square)
+![Open](https://img.shields.io/badge/Open_to-DevOps_%26_Research_Roles-brightgreen?style=flat-square)
 
 ---
 
 ## 🚀 About Me
 
 - 🎓 B.Sc. in CSE at **American International University-Bangladesh** · CGPA **3.74 / 4.00**
-- 🐳 Building **CI/CD pipelines** and containerized apps with Docker
-- 🔬 Doing undergraduate **research in AI/ML and Human-Computer Interaction**
+- 🔬 Student Researcher at **Elite Research Lab, AIUB**, working on **federated learning, explainable AI and privacy-preserving ML**
+- 📄 **6 peer-reviewed conference papers**: 5 presented (Springer LNNS, IEEE, ACM), 1 accepted at TAIIS 2026
+- ⚙️ Former **MLOps Engineer Intern @ WPPOOL**: Docker Compose, AWS, Prometheus & Grafana
 - 🌱 Currently learning **Kubernetes** and cloud infrastructure
-- 💼 **Open to DevOps internships and research collaborations**
-- 🌍 Based in Bangladesh · [Portfolio](https://abu-jafar-sisty.vercel.app/)
+- 💼 **Open to DevOps / MLOps roles and research collaborations**
+- 🌍 Based in Dhaka, Bangladesh · [Portfolio](https://abu-jafar-sisty.vercel.app/) · [ORCID](https://orcid.org/0009-0001-4517-2362)
 
 ---
 
 ## 🔬 Research
 
-I enjoy turning real-world problems into reproducible experiments — and I bring my DevOps mindset (containers, automation, reproducibility) into research workflows.
+**Student Researcher, Elite Research Lab, AIUB** (Jan 2026 – Present)
+*Advisor: Dr. Abhijit Bhowmik*
 
-**Research Interests**
-- 🏥 **Federated Learning for Medical Imaging** — privacy-preserving model training across institutions, handling non-IID data
-- 🧠 **Machine Learning for Mental Health** — student stress analysis using public datasets
-- 🖐️ **Human-Computer Interaction (HCI)** — user-centered and explainable AI systems
-- ⚙️ **MLOps** — reproducible, containerized ML pipelines
+- Federated learning for **medical imaging, remote sensing and network intrusion detection** under non-IID data (FedAvg, FedProx)
+- Designed **leakage-controlled evaluation protocols** (near-duplicate removal, multi-seed runs, paired statistical tests) and found train–test leakage in a widely used brain tumor MRI benchmark
+- Built a **selectively encrypted federated Vision Transformer** (CKKS homomorphic encryption): **93.997%** accuracy vs. 93.880% for plaintext FedAvg, at **1/2,328** of the cryptographic cost of encrypting the full model
+- Developed **quantitative explainability evaluation** (SHAP explanation divergence, Grad-CAM++ localization against segmentation masks)
 
-**Current Work**
-| Topic | Area | Status |
-|-------|------|--------|
-| Student stress prediction using ML on public (Kaggle) datasets | ML · Mental Health | 🟡 In progress |
-| HCI paper — improving on a recent CHI work (ICCA track) | HCI | 🟡 In progress |
-| Federated learning with explainability for medical image classification | FL · Medical AI | 🔵 Exploring |
+🎓 **Thesis:** *Attentive-SubTab: A Multi-Head Attention Fusion Approach to Self-Supervised Learning for Imbalanced Fraudulent Transactions*
 
-📄 *Publications will be listed here as they come out.*
+**Research Interests:** Federated Learning · Privacy-Preserving ML · Trustworthy & Explainable AI · Medical Image Analysis · Reliable ML Evaluation
+
+---
+
+## 📄 Publications
+
+| # | Paper | Venue | Status |
+|---|-------|-------|--------|
+| 1 | **Measuring Explanation Agreement in Federated Intrusion Detection: A Noise-Aware Evaluation Protocol** | TAIIS 2026, Taiwan | ✅ Accepted |
+| 2 | **Robust and Explainable Federated Learning for MRI Classification: A Leakage-Controlled Study with Aggregation and Cross-Dataset Analysis** | ICDMIS 2026, Sri Lanka · Springer LNNS | 🎤 Presented |
+| 3 | **CreditGuard: A Leakage-Free, Calibrated and Explainable Framework for Real-Time Credit Risk Assessment** | ICDMIS 2026, Sri Lanka · Springer LNNS | 🎤 Presented |
+| 4 | Trading Payload for Comparable Accuracy: A Duplicate-Controlled, Communication-Aware Federated Study of Brain Tumor MRI Backbones | IEEE COMPAS 2026, Dhaka | 🎤 Presented |
+| 5 | Partially Encrypted Federated Vision Transformers for Remote Sensing Scene Classification | ICCA 2026, AIUB · ACM | 🎤 Presented |
+| 6 | MindBeaconAI: An Explainable Machine Learning Framework for Student Stress Level Prediction and Real-Time Deployment | IEEE COMPAS 2026, Dhaka | 🎤 Presented |
+
+<sub>**Bold** = first author · Proceedings forthcoming</sub>
+
+---
+
+## 💼 Experience
+
+**MLOps Engineer Intern – WPPOOL** (Jun 2026 – Sep 2026)
+- Contributed to **CloudGuardian AI**, an internal AWS infrastructure and security automation platform
+- Ran the multi-service platform locally with **Docker Compose** and executed and validated its automation tools
+- Monitored service health with **Prometheus & Grafana**, explored **AWS EC2 & S3**, and wrote technical documentation for the team
 
 ---
 
 ## 🛠️ Tech Stack
 
 **DevOps & Cloud**
-`Docker` `CI/CD` `GitHub Actions` `Linux` `Bash`
+`Docker` `Docker Compose` `CI/CD` `GitHub Actions` `AWS (EC2, S3)` `Prometheus` `Grafana` `Linux` `Bash`
 
-**AI/ML & Research**
-`PyTorch` `scikit-learn` `Pandas` `Flower (FL)` `LaTeX`
+**Machine Learning**
+`PyTorch` `scikit-learn` `XGBoost` `LightGBM` `Optuna` `timm`
+
+**Federated Learning · XAI · Privacy**
+`FedAvg` `FedProx` `SHAP` `LIME` `Grad-CAM++` `TenSEAL (CKKS)`
 
 **Languages**
-`Python` `Java` `C#` `C++`
+`Python` `C++` `Java` `C#` `SQL`
 
-**Frameworks**
-`Flask` `Django`
+**Frameworks & Tools**
+`Flask` `Django` `Streamlit` `LaTeX` `Git`
 
 ---
 
@@ -62,10 +86,21 @@ I enjoy turning real-world problems into reproducible experiments — and I brin
 
 | Project | Description | Tech |
 |---------|-------------|------|
+| 💳 **CreditGuard** | Leakage-free credit risk app on 150K loans: AUC 0.861, ECE reduced from 0.242 to 0.002, SHAP explanations and fairness audit | XGBoost · SHAP · Streamlit |
+| 🛡️ **FedXAI-IDS** | FedAvg/FedProx across 10 clients on CICIDS2017 & UNSW-NB15, measuring how SHAP explanations diverge under heterogeneity | PyTorch · SHAP |
+| 🧠 **MindBeaconAI** | Explainable student stress prediction, deployed as a real-time web app | scikit-learn · LIME · Streamlit |
 | 🐳 [flask-devops-app](https://github.com/Sisty37/flask-devops-app) | Containerized Flask app with CI/CD pipeline | Python · Docker |
 | 🌐 [Django Project](https://github.com/Sisty37/Python-Django-Final-Project) | Full-stack Django web application | Python · Django |
-| 🐾 [PET_HOSTEL](https://github.com/Sisty37/PET_HOSTEL) | Pet hostel management system | C# |
-| 🎮 [Computer-Graphics](https://github.com/Sisty37/Computer-Graphics-Project) | Computer graphics project with OpenGL | C++ |
+
+---
+
+## 🏆 Honors & Leadership
+
+- 🎖️ **Dean's List Honour**, Faculty of Science and Technology, AIUB
+- 👨‍💼 **President**, AIUB Computer Club (2025–26)
+- 🤝 **Convener**, BASIS Student Forum, AIUB Chapter
+- 🎪 Organizer, AIUB CS Fest 2024 & AIUB Cyber Gaming Fest 2025
+- 🚀 Local Volunteer, NASA International Space Apps Challenge (2024, 2025)
 
 ---
 
@@ -76,4 +111,4 @@ I enjoy turning real-world problems into reproducible experiments — and I brin
 
 ---
 
-📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/abu-jafar-sisty-3a2396328) · [Portfolio](https://abu-jafar-sisty.vercel.app/)
+📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/abu-jafar-sisty-3a2396328) · [Portfolio](https://abu-jafar-sisty.vercel.app/) · [ORCID](https://orcid.org/0009-0001-4517-2362)
